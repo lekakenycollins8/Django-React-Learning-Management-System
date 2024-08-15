@@ -40,7 +40,9 @@ class Profile(models.Model):
         if self.full_name == "" or self.full_name == None:
             self.full_name = self.user.full_name
         super(Profile, self).save(*args, **kwargs)
-    
+
+ # Automatic Creating and saving of user profiles
+
 def create_user_profile(sender, instance, created, **kwargs):
     """create user profile"""
     if created:
