@@ -33,7 +33,7 @@ class RegisterSerializer(serializers.ModelSerializer):
 
     def create(self, validated_data):
         """Create user"""
-        user = User.objects.create_user(
+        user = User.objects.create(
             full_name=validated_data['full_name'],
             email=validated_data['email'],
         )
