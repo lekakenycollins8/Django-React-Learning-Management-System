@@ -1473,6 +1473,11 @@ es-to-primitive@^1.2.1:
     is-date-object "^1.0.1"
     is-symbol "^1.0.2"
 
+es6-object-assign@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/es6-object-assign/-/es6-object-assign-1.1.0.tgz#c2c3582656247c39ea107cb1e6652b6f9f24523c"
+  integrity sha512-MEl9uirslVwqQU369iHNWZXsI8yaZYGg/D65aOgZkeyFJwHYSxilf7rQzXKI7DdDuBPrBXbfk3sl9hJhmd5AUw==
+
 esbuild@^0.21.3:
   version "0.21.5"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.21.5.tgz#9ca301b120922959b766360d8ac830da0d02997d"
@@ -2356,6 +2361,11 @@ prelude-ls@^1.2.1:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
 
+promise-polyfill@^6.0.2:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/promise-polyfill/-/promise-polyfill-6.1.0.tgz#dfa96943ea9c121fca4de9b5868cb39d3472e057"
+  integrity sha512-g0LWaH0gFsxovsU7R5LrrhHhWAWiHRnh1GPrhXnPgYsDkIqjRYUYSZEsej/wtleDrz5xVSIDbeKfidztp2XHFQ==
+
 promise-polyfill@^8.3.0:
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/promise-polyfill/-/promise-polyfill-8.3.0.tgz#9284810268138d103807b11f4e23d5e945a4db63"
@@ -2661,6 +2671,11 @@ side-channel@^1.0.4, side-channel@^1.0.6:
     get-intrinsic "^1.2.4"
     object-inspect "^1.13.1"
 
+simple-zustand-devtools@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/simple-zustand-devtools/-/simple-zustand-devtools-1.1.0.tgz#bb080b30c9930d2997f33881f63d47405226fd7f"
+  integrity sha512-Axfcfr9L3YL3kto7aschCQLY2VUlXXMnIVtaTe9Y0qWbNmPsX/y7KsNprmxBZoB0pww5ZGs1u/ohcrvQ3tE6jA==
+
 source-map-js@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.2.1.tgz#1ce5650fddd87abc099eda37dcff024c2667ae46"
@@ -2755,6 +2770,14 @@ sweetalert2@11.14.1:
   version "11.14.1"
   resolved "https://registry.yarnpkg.com/sweetalert2/-/sweetalert2-11.14.1.tgz#aa066422e1045aa6923ae5d0ef8cad7067b23097"
   integrity sha512-xadhfcA4STGMh8nC5zHFFWURhRpWc4zyI3GdMDFH/m3hGWZeQQNWhX9xcG4lI9gZYsi/IlazKbwvvje3juL3Xg==
+
+sweetalert@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/sweetalert/-/sweetalert-2.1.2.tgz#010baaa80d0dbdc86f96bfcaa96b490728594b79"
+  integrity sha512-iWx7X4anRBNDa/a+AdTmvAzQtkN1+s4j/JJRWlHpYE8Qimkohs8/XnFcWeYHH2lMA8LRCa5tj2d244If3S/hzA==
+  dependencies:
+    es6-object-assign "^1.1.0"
+    promise-polyfill "^6.0.2"
 
 text-table@^0.2.0:
   version "0.2.0"
